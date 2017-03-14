@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title>Rad Rentals</title>
+        <title>Dolomia HTML Template</title>
 
         <!-- Bootstrap -->
         <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
@@ -50,7 +50,7 @@
             </span>
         </div>
         
-        <!--  Main Wrap  -->
+         <!--  Main Wrap  -->
         <div id="main-wrap" class="full-width">
             <!--  Header & Menu  -->
             <header id="header" class="fixed transparent full-width">
@@ -64,13 +64,13 @@
                             <div class="menu-holder">
                                 <ul>  
 									<li>
-										<a href="index.html" class="active-item">Home</a>                                     
+										<a href="index.html">Home</a>                                     
                                     </li>                                    
                                     <li>
                                         <a href="policies.html">Policies</a>
                                     </li>                                                                                                
                                     <li>
-                                        <a href="contact-us.html">Contact</a>
+                                        <a href="contact-us.html" class="active-item">Contact</a>
                                     </li>                                                                     
                                 </ul>
                             </div>
@@ -89,97 +89,51 @@
                     </nav>
                 </div>
             </header>
-            <!--  END Header & Menu  -->
+            
             <!--  Page Content, class footer-fixed if footer is fixed  -->
             <div id="page-content" class="header-static">
                 <!--  Slider  -->
                 <div id="flexslider" class="fullpage-wrap small">
                     <ul class="slides">
-                        <li style="background-image:url(assets/img/trip8.jpg)">
+                        <li style="background-image:url(assets/img/contact.jpg)">
                             <div class="container text text-center">
-                                <h1 class="white margin-bottom-small">Rad Rental</h1>
-                                <p class="heading white">We are the go to place for party rentals.</p>
+                                <h1 class="white margin-bottom-small">Contact Us</h1>
+                                <p class="heading white">Shoot us a text or give us a call.</p>
                             </div>
                             <div class="gradient dark"></div>
-                        </li>                        
+                        </li>
+                        <ol class="breadcrumb">
+                            <li><a href="index.html">Home</a></li>
+                            <li class="active">Contact</li>
+                        </ol>
                     </ul>
                 </div>
                 <!--  END Slider  -->
-                <div id="page-wrap" class="content-section fullpage-wrap grey-background">
-                    <div class="container text">
-                        <section id="masonry-filters" class="">
-                            <!--  Filters  -->
-                            <div class="row margin-null">
-                                <div class="col-sm-12 padding-leftright-null text-center">
-                                    <ul class="col-md-12 filters padding-leftright-null">
-                                        <li data-filter="*" class="is-checked">All</li>
-                                        <li data-filter=".bounceHouse">Bounce Houses</li>
-                                        <li data-filter=".wet">Wet</li>                                        
-                                    </ul>
-                                </div>
-                            </div>
-                            <!--  END Filters  -->
-                        </section>
-                        <!--  All treks  -->
-                        <section id="showcase-treks" class="page" data-isotope="load-simple">
-                            <div class="masonry-items two-columns">
-                                <!--  Single Trek  -->
-                                <div class="item one-item bounceHouse wet">
-                                    <div class="showcase-trek">
-                                        <span class="read">
-                                            from $70
-                                        </span>
-                                        <img src="assets/img/blastzone-bouncer.jpg" alt="Bounce House Rental Utah">
-                                        <div class="content text-center">
-                                            <div class="row margin-leftright-null">
-                                                <div class="meta">
-                                                    <div class="col-xs-4 padding-leftright-null">
-                                                        <h3>1</h3>
-                                                        <h4>Days</h4>
-                                                    </div>
-                                                    <div class="col-xs-4 padding-leftright-null">
-                                                        <h3>5</h3>
-                                                        <h4>Max Capacity</h4>
-                                                    </div>
-                                                    <div class="col-xs-4 padding-leftright-null">
-                                                        <h3>Age</h3>
-                                                        <h4>3+</h4>
-                                                    </div>
-                                                </div>
-                                                <div class="category">
-                                                    <h3>Bounce House</h3>
-                                                </div>
-                                                <div class="info">
-                                                    <div class="col-md-12 padding-leftright-null">
-                                                        <h6 class="heading">Blast Zone</h6>
-                                                        <p class="margin-null">Misty Kingdom</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <a href="misty-kingdom.html" class="link"></a>
+                <div id="page-wrap" class="content-section fullpage-wrap">
+                    <div class="row margin-leftright-null">
+                        <div class="container">
+                            <!--  Contact Info  -->
+                            <div class="padding-leftright-null">
+                                <div class="text">
+                                    <h2 class="margin-bottom-null title line left">Get in touch</h2>
+                                    <p class="heading center grey margin-bottom-null">We would love to hear from you</p>
+                                    <div class="padding-onlytop-md">
+                                        <p class="margin-bottom">Contact Info</p>
+                                        <p><span class="contact-info">Address <em>
+                                            Springville, Ut 84663</em></span><br><span class="contact-info">Phone <em>801-669-2723</em></span><br><span class="contact-info">Email <a href="mailto:info@radrental.net?Subject=Web%20Rental"><em>info@radrental.net</em></a></span></p>
+                                        <p class="margin-md-bottom-null"><span class="contact-info">Monday to Friday <em>9:00 am to 5:00 pm</em></span><br><span class="contact-info">Saturday from <em>10:00 am to 3:00 pm</em></span></p>
                                     </div>
                                 </div>
-                                <!--  END Single Trek  -->                                
-                        </section>
-                        <!--  END All treks  -->
-                    </div>
-                    <!--  Call to Action  -->
-					
-                    <div class="row margin-leftright-null color-background">
-                        <div class="col-md-12 text text-center">
-                            <h4 class="big white margin-bottom-small">Would you like more info about other rentals??</h4>
-                            <a href="contact-us.html" target="_blank" class="btn-alt small white margin-null active shadow">Contact us</a>
+                            </div>
+                            <!--  END Contact Info -->                            
                         </div>
                     </div>
-					
-                    <!--  END Call to Action  -->
+                   
                 </div>
             </div>
             <!--  END Page Content, class footer-fixed if footer is fixed  -->
             
-
-            <!--  END Footer. Class fixed for fixed footer  -->
+            
         </div>
         <!--  Main Wrap  -->
         
@@ -201,6 +155,7 @@
         <script src="assets/js/plugins-scroll.js"></script>
         <script src="assets/js/imagesloaded.min.js"></script>
         <script src="assets/js/pace.min.js"></script>
+        <script src="assets/js/maps.js"></script>
         <script src="assets/js/main.js"></script>
     </body>
 </html>
