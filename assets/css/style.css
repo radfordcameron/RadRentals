@@ -444,7 +444,6 @@ a.btn {
 }
 
 a.btn:hover {
-  background-color: #CBBD9A;
   color: white !important;
   border-color: transparent;
   transition: all .4s ease;
