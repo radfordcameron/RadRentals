@@ -7117,7 +7117,7 @@ footer.fixed.full-width, .footer.fixed.full-width {
 
 @media screen and (min-width: 1920px) {
   footer.fixed.full-width, .footer.fixed.full-width {
-    margin-left: -960px;
+    margin-left: -952px;
     left: 50%;
     right: inherit;
   }
