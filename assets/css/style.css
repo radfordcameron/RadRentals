@@ -3315,6 +3315,7 @@ header nav.navbar.white #menu .menu-holder ul li > a, header nav.navbar.white #s
 header nav.navbar.white #menu .menu-holder ul li > a.active-item, header nav.navbar.white #sidemenu .menu-holder ul li > a.active-item, header nav.navbar.white #menu-classic .menu-holder ul li > a.active-item {
   color: #2F70A9;
   font-weight: 400;
+  text-shadow: 1px 1px 1px #000;
 }
 
 header nav.navbar.white #menu .menu-holder ul li.lang span.current a, header nav.navbar.white #sidemenu .menu-holder ul li.lang span.current a, header nav.navbar.white #menu-classic .menu-holder ul li.lang span.current a {
