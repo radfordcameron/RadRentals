@@ -2353,7 +2353,7 @@ header nav.navbar #logo a.navbar-brand {
 header nav.navbar #logo a.navbar-brand img {
   max-height: 65px;
   width: auto;
-  margin-top: -18px;
+  margin-top: -7px;
 }
 
 @media screen and (max-width: 480px) {
